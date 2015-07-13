@@ -57,7 +57,7 @@
     NSDictionary *playerVars = @{
                                  @"playsinline" : @1,
                                  };
-    [self.viewPlayer loadWithVideoId:@"PgVwzSAMnrI" playerVars:playerVars];
+    [self.viewPlayer loadWithVideoId:[NSString stringWithFormat:@"%@",self.idOfSong] playerVars:playerVars];
     
     // Disable Stop/Play button when application launches
     [stopButton setEnabled:NO];

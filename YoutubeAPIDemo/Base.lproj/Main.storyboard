@@ -5,22 +5,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="hhc-aL-SoS">
-            <objects>
-                <navigationController id="iUE-E4-duV" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cCl-Gi-0iP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="mEg-Lk-w01" kind="relationship" relationship="rootViewController" id="Xbb-jX-Av2"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0qY-ft-dFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-491" y="248"/>
-        </scene>
         <!--List Song View Controller-->
         <scene sceneID="zeY-sE-sGl">
             <objects>
@@ -33,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="2gh-aj-odd">
-                                <rect key="frame" x="0.0" y="85" width="320" height="483"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="2gh-aj-odd">
+                                <rect key="frame" x="0.0" y="129" width="320" height="439"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="XvF-vl-zKe">
@@ -49,8 +33,8 @@
                                     <outlet property="delegate" destination="mEg-Lk-w01" id="a7c-6Q-mkw"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" misplaced="YES" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="VJM-bS-iD9">
-                                <rect key="frame" x="0.0" y="41" width="320" height="44"/>
+                            <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="VJM-bS-iD9">
+                                <rect key="frame" x="0.0" y="85" width="320" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -69,11 +53,12 @@
                     <connections>
                         <outlet property="searchBar" destination="VJM-bS-iD9" id="gwt-5X-MBz"/>
                         <outlet property="tableListSong" destination="2gh-aj-odd" id="rfC-OC-yLK"/>
+                        <segue destination="vXZ-lx-hvc" kind="push" identifier="pushToOnlySing" id="zVq-Ez-R0N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30M-hl-6gB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="232"/>
+            <point key="canvasLocation" x="2637" y="232"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -133,7 +118,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396" y="232"/>
+            <point key="canvasLocation" x="3056" y="232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vop-yI-AqM">
+            <objects>
+                <viewController id="zEP-26-tvp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rjv-G9-GL9"/>
+                        <viewControllerLayoutGuide type="bottom" id="O2P-R8-OjB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YEV-Le-qxj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUx-hY-WWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3056" y="920"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kkP-ks-hKb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Zv-x3-8fj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8uq-pS-7uG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mEg-Lk-w01" kind="relationship" relationship="rootViewController" id="dfm-ds-G2i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QlU-lM-YMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2105" y="232"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -16,8 +16,39 @@
 
 
 @implementation listSongViewController
-
-
+int indexOfSong;
+//    -----------------ActionSheet for cell click
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    UIStoryboardSegue *segue;
+    KaraokeSong *song =[self.arrSongsList objectAtIndex:indexOfSong];
+    if(buttonIndex==0){
+        NSLog(@"%ld", buttonIndex);
+        KaraokeSong *song = [self.arrSongsList objectAtIndex:indexOfSong];
+        
+//        ViewController *second=[[ViewController alloc] initWithNibName:nil bundle:nil];
+        //    self.arrImage =arrDataRequest;
+//        [self.navigationController pushViewController:second animated:YES];
+//        second.idOfSong =song.idSong;
+        
+        
+//        ViewController *viewController = [[ViewController alloc] init];
+        ViewController *nextController = segue.destinationViewController;
+        nextController.idOfSong=song.idSong;
+//        NSLog(@"%@",song.idSong);
+        // Perform Segue
+        [self performSegueWithIdentifier:@"pushToOnlySing" sender:nil];
+//        if ([segue.identifier isEqualToString:@"pushOnlySing"]){
+//            ViewController *nextController = segue.destinationViewController;
+//            nextController.idOfSong=song.idSong;
+//        }
+        
+    }
+    else if(buttonIndex==1){
+        NSLog(@"%ld", buttonIndex);
+    }else if(buttonIndex==2){
+        NSLog(@"%ld", buttonIndex);
+    }
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -236,7 +267,7 @@
                                                     cancelButtonTitle:@"Cancel"
                                                destructiveButtonTitle:@"Only sing"
                                                     otherButtonTitles:@"Add to favourite list", @"Sing and record", nil];
-    
+    indexOfSong=indexPath.row;
     [actionSheet showInView:self.view];
 }
 

@@ -15,21 +15,16 @@
 		D6AEAF851B43EE7500879D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAF841B43EE7500879D9B /* AppDelegate.m */; };
 		D6AEAF881B43EE7500879D9B /* YoutubeAPIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAF861B43EE7500879D9B /* YoutubeAPIDemo.xcdatamodeld */; };
 		D6AEAF8B1B43EE7500879D9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAF8A1B43EE7500879D9B /* ViewController.m */; };
-		D6AEAF8E1B43EE7500879D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AEAF8C1B43EE7500879D9B /* Main.storyboard */; };
 		D6AEAF901B43EE7500879D9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AEAF8F1B43EE7500879D9B /* Images.xcassets */; };
 		D6AEAF931B43EE7500879D9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6AEAF911B43EE7500879D9B /* LaunchScreen.xib */; };
 		D6AEAF9F1B43EE7500879D9B /* YoutubeAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAF9E1B43EE7500879D9B /* YoutubeAPIDemoTests.m */; };
 		D6AEAFAA1B43EED500879D9B /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AEAFA91B43EED500879D9B /* YTPlayerView.m */; };
 		D6AEAFB01B44045400879D9B /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = D6AEAFAF1B44045400879D9B /* YTPlayerView-iframe-player.html */; };
+		D6B4D8D01B53124A00337B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B4D8CE1B53124A00337B30 /* Main.storyboard */; };
 		D6B4F5B81B4BE19D00A03DF7 /* listSongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B4F5B61B4BE19D00A03DF7 /* listSongCell.m */; };
 		D6B4F5B91B4BE19D00A03DF7 /* listSongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B4F5B71B4BE19D00A03DF7 /* listSongCell.xib */; };
-		D6BBC11C1B45AE640041A1B3 /* ListKaraokeSong.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BBC11B1B45AE640041A1B3 /* ListKaraokeSong.m */; };
-		D6C1FCA51B47F3B4000256B4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FC9F1B47F3B4000256B4 /* Bolts.framework */; };
+		D6C07A631B53C106006C2837 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C07A621B53C106006C2837 /* Parse.framework */; };
 		D6C1FCA61B47F3B5000256B4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FCA01B47F3B4000256B4 /* Parse.framework */; };
-		D6C1FCA71B47F3B5000256B4 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FCA11B47F3B4000256B4 /* ParseCrashReporting.framework */; };
-		D6C1FCA81B47F3B5000256B4 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FCA21B47F3B4000256B4 /* ParseFacebookUtils.framework */; };
-		D6C1FCA91B47F3B5000256B4 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FCA31B47F3B4000256B4 /* ParseFacebookUtilsV4.framework */; };
-		D6C1FCAA1B47F3B5000256B4 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1FCA41B47F3B4000256B4 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +54,6 @@
 		D6AEAF871B43EE7500879D9B /* YoutubeAPIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YoutubeAPIDemo.xcdatamodel; sourceTree = "<group>"; };
 		D6AEAF891B43EE7500879D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D6AEAF8A1B43EE7500879D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6AEAF8D1B43EE7500879D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6AEAF8F1B43EE7500879D9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6AEAF921B43EE7500879D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D6AEAF981B43EE7500879D9B /* YoutubeAPIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeAPIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,17 +62,12 @@
 		D6AEAFA81B43EED500879D9B /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		D6AEAFA91B43EED500879D9B /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		D6AEAFAF1B44045400879D9B /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		D6B4D8CF1B53124A00337B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YoutubeAPIDemo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B4F5B51B4BE19D00A03DF7 /* listSongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listSongCell.h; sourceTree = "<group>"; };
 		D6B4F5B61B4BE19D00A03DF7 /* listSongCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listSongCell.m; sourceTree = "<group>"; };
 		D6B4F5B71B4BE19D00A03DF7 /* listSongCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = listSongCell.xib; sourceTree = "<group>"; };
-		D6BBC11A1B45AE640041A1B3 /* ListKaraokeSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListKaraokeSong.h; sourceTree = "<group>"; };
-		D6BBC11B1B45AE640041A1B3 /* ListKaraokeSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListKaraokeSong.m; sourceTree = "<group>"; };
-		D6C1FC9F1B47F3B4000256B4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D6C07A621B53C106006C2837 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D6C1FCA01B47F3B4000256B4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		D6C1FCA11B47F3B4000256B4 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		D6C1FCA21B47F3B4000256B4 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		D6C1FCA31B47F3B4000256B4 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		D6C1FCA41B47F3B4000256B4 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C1FCAA1B47F3B5000256B4 /* ParseUI.framework in Frameworks */,
 				D6C1FCA61B47F3B5000256B4 /* Parse.framework in Frameworks */,
-				D6C1FCA71B47F3B5000256B4 /* ParseCrashReporting.framework in Frameworks */,
-				D6C1FCA81B47F3B5000256B4 /* ParseFacebookUtils.framework in Frameworks */,
-				D6C1FCA51B47F3B4000256B4 /* Bolts.framework in Frameworks */,
-				D6C1FCA91B47F3B5000256B4 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				D6C07A631B53C106006C2837 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +139,6 @@
 				D6AEAFA91B43EED500879D9B /* YTPlayerView.m */,
 				D6AEAF831B43EE7500879D9B /* AppDelegate.h */,
 				D6AEAF841B43EE7500879D9B /* AppDelegate.m */,
-				D6BBC11A1B45AE640041A1B3 /* ListKaraokeSong.h */,
-				D6BBC11B1B45AE640041A1B3 /* ListKaraokeSong.m */,
 				D6AEAF891B43EE7500879D9B /* ViewController.h */,
 				D6AEAF8A1B43EE7500879D9B /* ViewController.m */,
 				D6A893AB1B4E7174005ADFC4 /* listSongViewController.h */,
@@ -163,7 +146,7 @@
 				D6B4F5B51B4BE19D00A03DF7 /* listSongCell.h */,
 				D6B4F5B61B4BE19D00A03DF7 /* listSongCell.m */,
 				D6B4F5B71B4BE19D00A03DF7 /* listSongCell.xib */,
-				D6AEAF8C1B43EE7500879D9B /* Main.storyboard */,
+				D6B4D8CE1B53124A00337B30 /* Main.storyboard */,
 				D6AEAF8F1B43EE7500879D9B /* Images.xcassets */,
 				D6AEAF911B43EE7500879D9B /* LaunchScreen.xib */,
 				D6AEAF861B43EE7500879D9B /* YoutubeAPIDemo.xcdatamodeld */,
@@ -209,12 +192,8 @@
 		D6C1FCAB1B47F3CE000256B4 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				D6C1FC9F1B47F3B4000256B4 /* Bolts.framework */,
+				D6C07A621B53C106006C2837 /* Parse.framework */,
 				D6C1FCA01B47F3B4000256B4 /* Parse.framework */,
-				D6C1FCA11B47F3B4000256B4 /* ParseCrashReporting.framework */,
-				D6C1FCA21B47F3B4000256B4 /* ParseFacebookUtils.framework */,
-				D6C1FCA31B47F3B4000256B4 /* ParseFacebookUtilsV4.framework */,
-				D6C1FCA41B47F3B4000256B4 /* ParseUI.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -299,8 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6AEAF8E1B43EE7500879D9B /* Main.storyboard in Resources */,
 				D6AEAF931B43EE7500879D9B /* LaunchScreen.xib in Resources */,
+				D6B4D8D01B53124A00337B30 /* Main.storyboard in Resources */,
 				D6B4F5B91B4BE19D00A03DF7 /* listSongCell.xib in Resources */,
 				D6AEAF901B43EE7500879D9B /* Images.xcassets in Resources */,
 				D6AEAFB01B44045400879D9B /* YTPlayerView-iframe-player.html in Resources */,
@@ -325,7 +304,6 @@
 				D6AEAF851B43EE7500879D9B /* AppDelegate.m in Sources */,
 				D6AEAF8B1B43EE7500879D9B /* ViewController.m in Sources */,
 				D6A538991B4D319C008226DE /* Favourite.m in Sources */,
-				D6BBC11C1B45AE640041A1B3 /* ListKaraokeSong.m in Sources */,
 				D6B4F5B81B4BE19D00A03DF7 /* listSongCell.m in Sources */,
 				D6A538A11B4D338C008226DE /* CoredataHelper.m in Sources */,
 				D6AEAFAA1B43EED500879D9B /* YTPlayerView.m in Sources */,
@@ -354,20 +332,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6AEAF8C1B43EE7500879D9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6AEAF8D1B43EE7500879D9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6AEAF911B43EE7500879D9B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D6AEAF921B43EE7500879D9B /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D6B4D8CE1B53124A00337B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B4D8CF1B53124A00337B30 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
